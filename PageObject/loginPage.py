@@ -10,8 +10,8 @@ class login(Page):
     url = Url.baseUrl
 
     # 示例
-    search_input_loc = NewPageElement(id_='kw')
-    search_button_loc = NewPageElement(id_='su')
+    search_input_loc = NewPageElement(id_='sb_form_q')
+    search_button_loc = NewPageElement(id_='sb_form_go')
 
     # 操作方法封装
     def search_input(self, key):

@@ -25,6 +25,7 @@ class automatic(object):
             time_version_dict[time] = version
             time_list.append(time)
         latest_version = time_version_dict[max(time_list)][:-1]    # 获取浏览器版本号
+        latest_version='87.0.4280.88'
         log.info('线上最新版本：'+str(latest_version))
         return latest_version
 

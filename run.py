@@ -30,10 +30,10 @@ from models import osSystem
 from models.mail import sendMail
 
 # 配置e-mail信息
-user = 'you@126.com'    # 发送者邮件账号
-password = 'DINODMVPZVSBPYKA'     # 发送者邮件授权码
-host = 'smtp.126.com'   # host路径
-to = 'to@mail.com'     # 邮件接收者，如有多个','英文逗号分割
+user = 'joeliu1985@outlook.com'    # 发送者邮件账号
+password = 'asdf1234'     # 发送者邮件授权码
+host = 'smtp.outlook.com'   # host路径
+to = 'joeliu1985@outlook.com'     # 邮件接收者，如有多个','英文逗号分割
 
 
 if __name__ == '__main__':
